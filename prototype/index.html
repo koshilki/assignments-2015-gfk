@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inheritance</title>
+        <script src="js/prototype.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            var load = function(){
+                var instance = new ExtendingClass();
+                document.getElementById('section_base').innerHTML = instance.method1();
+                document.getElementById('section_ext').innerHTML = instance.method2();
+            };
+        </script>
+    </head>
+    <body onload="load()">
+        <p id="section_base"></p>
+        <p id="section_ext"></p>
+    </body>
+</html>

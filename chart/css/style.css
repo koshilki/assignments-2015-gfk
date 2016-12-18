@@ -1,0 +1,20 @@
+line.chart, polyline.chart {
+    stroke: #0074d9;
+    stroke-width: 3px;
+    fill: none;
+}
+
+circle.chart {
+    fill: #0074d9;
+}
+
+line.grid {
+    stroke: #eee;
+    stroke-width: 2px;
+    fill: none;
+}
+
+text.grid {
+    font-family: Verdana;
+    font-size: 10px;
+}
